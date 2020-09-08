@@ -42,6 +42,27 @@ After clone install the npm package
 npm install 
 ```
 
+run knex for database 
+```
+knex migrate:latest
+```
+```
+knex seed:run
+```
+
+For the project to run you need to run the project command separately. 
+Inside the project folder after clone run this command 
+```
+npm start
+```
+
+open another termincal or command line and go to client folder and run 
+```
+npm start 
+```
+
+
+
 
 ## <a name="credits">Credits</a>
 
