@@ -23,7 +23,7 @@ class ViewPatients extends Component {
         <div className="row">
           <div className="col-lg-12" id="patintArea">
             <div id="viewHabits">
-              <h1>{this.props.name}</h1>
+              <h1>Patients Details </h1> <br />
               <table class="table table-hover">
                 <thead>
                   <tr>
