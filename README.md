@@ -79,10 +79,10 @@ After the page is loaded and the server is up and running
 
 Please enter these login details 
 
-# username : QUEDR123
-# password : amitaghale
+## username : QUEDR123
+## password : amitaghale
 
-## you can create ur own employee by redirectiong the client route to register page by [ localhost:3000/register ] 
+### you can create ur own employee by redirectiong the client route to register page by [ localhost:3000/register ] 
 
 The people cannot go the register page unless redirecting from the request as in real scenario the employee cannot add themselves to the register.
 
@@ -93,6 +93,4 @@ The people cannot go the register page unless redirecting from the request as in
 
 This project used bootstrap.
 
-This project images were linked with the google images. 
 
-This project icons were downloaded from flaticon.
