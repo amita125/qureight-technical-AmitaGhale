@@ -28,6 +28,7 @@ As a patient, I would like only the doctor of the doctor of the Qureight hospita
 ## <a name="mockups">Mockups</a>
 
 When the app is loaded, the user sees the login page, which ask the username and password.
+<img src="https://github.com/amita125/starwars-project/blob/master/starwars/assets/img/download.png" alt="download" height="400" width="100%"/>
 
 
 
