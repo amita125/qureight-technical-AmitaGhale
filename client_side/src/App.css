@@ -1,38 +1,59 @@
-.App {
+* {
+  background-color: beige;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+div#HomePage {
+  margin-top: 40px;
+  overflow: hidden;
+  height: 90vh;
+}
+
+h1 {
   text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  color: #d4b184;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div#newPatient {
+  padding-top: 110px;
+}
+button.btn.btn-primary.btn-lg.btn-block {
+  background-color: #c1a076;
+  border: #e34848;
+  color: #4d340ff7;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 30px;
+}
+span#patientName {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+button.btn.btn-outline-success.button-style {
+  margin-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div#patientPage {
+  margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h5#exampleModalLongTitle {
+  font-weight: bold;
 }

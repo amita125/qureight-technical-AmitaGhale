@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const Patients = require('../data/queries')
+const Patients = require('../db/queries')
 router.get('/datas', (req, res, next) => {
   Patients.getDatas()
     .then(function (showDatas) {

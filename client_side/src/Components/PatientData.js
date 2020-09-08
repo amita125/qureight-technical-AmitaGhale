@@ -63,8 +63,10 @@ class PatientData extends Component {
     return (
       <tr>
         <td>
-          {' '}
-          {this.props.name} {this.props.surname}
+          <span id="patientName">
+            {' '}
+            {this.props.name} {this.props.surname}{' '}
+          </span>
         </td>
 
         <td>
@@ -73,9 +75,15 @@ class PatientData extends Component {
             className="btn btn-outline-danger button-style"
             type="button"
           >
-            del
+            Delete
           </button>
-          <button onClick={this.PatientViews}>View</button>
+          <button
+            onClick={this.PatientViews}
+            className="btn btn-outline-success button-style"
+            type="button"
+          >
+            View
+          </button>
         </td>
       </tr>
     )

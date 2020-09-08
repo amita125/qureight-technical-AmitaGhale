@@ -61,7 +61,7 @@ export class EditPatient extends Component {
           data-toggle="modal"
           data-target=".bd-example-modal-lg"
         >
-          Add Patient
+          Edit Patient
         </button>
         <div
           className="modal fade bd-example-modal-lg"
@@ -74,7 +74,7 @@ export class EditPatient extends Component {
             <div className="modal-content">
               <div className="modal-header">
                 <h5 className="modal-title" id="exampleModalLongTitle">
-                  New Patient
+                  Update Patient Details
                 </h5>
                 <button
                   type="button"
@@ -92,7 +92,7 @@ export class EditPatient extends Component {
                       htmlFor="patientName"
                       className="col-sm-2 col-form-label"
                     >
-                      Patient Name
+                      Name
                     </label>
                     <div className="col-sm-10">
                       <input
@@ -109,7 +109,7 @@ export class EditPatient extends Component {
                       htmlFor="patientSurname"
                       className="col-sm-2 col-form-label"
                     >
-                      Patient surname
+                      Surname
                     </label>
                     <div className="col-sm-10">
                       <input
@@ -126,14 +126,14 @@ export class EditPatient extends Component {
                       htmlFor="patientAge"
                       className="col-sm-2 col-form-label"
                     >
-                      Patient Age
+                      Age
                     </label>
                     <div className="col-sm-10">
                       <input
-                        type="number"
                         className="form-control"
+                        type="date"
+                        value="2011-08-19"
                         id="patientAge"
-                        value={this.state.patientAge}
                         onChange={this.handlePatientage}
                       />
                     </div>
@@ -143,7 +143,7 @@ export class EditPatient extends Component {
                       htmlFor="patientHeight"
                       className="col-sm-2 col-form-label"
                     >
-                      Patient Height
+                      Height ( cm )
                     </label>
                     <div className="col-sm-10">
                       <input
@@ -156,7 +156,12 @@ export class EditPatient extends Component {
                     </div>
                   </div>
                   <div className="form-group row">
-                    <label for="exampleFormControlTextarea1">Notes</label>
+                    <label
+                      htmlFor="exampleFormControlTextarea1"
+                      className="col-sm-2 col-form-label"
+                    >
+                      Notes
+                    </label>
 
                     <div className="col-sm-10">
                       <textarea
@@ -176,7 +181,7 @@ export class EditPatient extends Component {
                         className="btn btn-primary"
                         onClick={this.refreshPage}
                       >
-                        update
+                        Update
                       </button>
                     </div>
                   </div>

@@ -62,9 +62,10 @@ class LoginPage extends Component {
     return (
       <div className="container-fluid" id="HomePage">
         <div className="row">
-          <div className="col-lg-3" id="asideArea"></div>
-          <div className="col-lg-6">
+          <div className="col-lg-4" id="asideArea"></div>
+          <div className="col-lg-4">
             <div className="App-body" id="formArea">
+              <h1>Qureight Hospital Login</h1> <br />
               <form onSubmit={this.handleSubmit}>
                 <div className="form-group row">
                   <label htmlFor="username">Username</label>
@@ -90,13 +91,13 @@ class LoginPage extends Component {
                     autoComplete="on"
                   />
                 </div>
-                <button type="submit" className="loginButton">
+                <button type="submit" className="btn btn-primary loginButton">
                   Login
                 </button>
               </form>
             </div>
           </div>
-          <div className="col-lg-3" id="asideArea"></div>
+          <div className="col-lg-4" id="asideArea"></div>
         </div>
       </div>
     )

@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const Employees = require('../data/queries')
+const Employees = require('../db/queries')
 router.post('/signup', (req, res, next) => {
   const user = req.body
   const username = req.body.username

@@ -8,7 +8,7 @@ export class NewPatient extends Component {
       patientName: '',
       patientSurname: '',
       patientAge: '',
-      patientHeight: '',
+      patientHeight: '150 cm',
       patientNotes: '',
     }
   }
@@ -74,7 +74,7 @@ export class NewPatient extends Component {
             <div className="modal-content">
               <div className="modal-header">
                 <h5 className="modal-title" id="exampleModalLongTitle">
-                  New Patient
+                  Patient Details
                 </h5>
                 <button
                   type="button"
@@ -92,7 +92,7 @@ export class NewPatient extends Component {
                       htmlFor="patientName"
                       className="col-sm-2 col-form-label"
                     >
-                      Patient Name
+                      Name
                     </label>
                     <div className="col-sm-10">
                       <input
@@ -109,7 +109,7 @@ export class NewPatient extends Component {
                       htmlFor="patientSurname"
                       className="col-sm-2 col-form-label"
                     >
-                      Patient surname
+                      Surname
                     </label>
                     <div className="col-sm-10">
                       <input
@@ -126,7 +126,7 @@ export class NewPatient extends Component {
                       htmlFor="patientAge"
                       className="col-sm-2 col-form-label"
                     >
-                      Patient Age
+                      Age
                     </label>
                     <div className="col-sm-10">
                       <input
@@ -142,20 +142,25 @@ export class NewPatient extends Component {
                       htmlFor="patientHeight"
                       className="col-sm-2 col-form-label"
                     >
-                      Patient Height
+                      Height
                     </label>
                     <div className="col-sm-10">
                       <input
-                        type="text"
+                        type="number"
                         className="form-control"
                         id="patientHeight"
-                        value={this.state.patientHeight}
+                        placeholder="Height in cm "
                         onChange={this.handlePatientheight}
                       />
                     </div>
                   </div>
                   <div className="form-group row">
-                    <label for="exampleFormControlTextarea1">Notes</label>
+                    <label
+                      htmlFor="exampleFormControlTextarea1"
+                      className="col-sm-2 col-form-label"
+                    >
+                      Notes
+                    </label>
 
                     <div className="col-sm-10">
                       <textarea
