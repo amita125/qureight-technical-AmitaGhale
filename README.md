@@ -75,6 +75,17 @@ open another termincal or command line and go to client folder and run
 npm start 
 ```
 
+After the page is loaded and the server is up and running 
+
+Please enter these login details 
+
+# username : QUEDR123
+# password : amitaghale
+
+## you can create ur own employee by redirectiong the client route to register page by [ localhost:3000/register ] 
+
+The people cannot go the register page unless redirecting from the request as in real scenario the employee cannot add themselves to the register.
+
 
 
 
