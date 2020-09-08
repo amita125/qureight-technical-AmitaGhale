@@ -37,6 +37,11 @@ Clone this repository from github
 ```
 $ git clone https://github.com/amita125/qureight-technical-AmitaGhale.git
 ```
+After clone install the npm package
+```
+npm install 
+```
+
 
 ## <a name="credits">Credits</a>
 
