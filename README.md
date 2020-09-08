@@ -28,7 +28,20 @@ As a patient, I would like only the doctor of the doctor of the Qureight hospita
 ## <a name="mockups">Mockups</a>
 
 When the app is loaded, the user sees the login page, which ask the username and password.
-<img src="https://github.com/amita125/starwars-project/blob/master/starwars/assets/img/download.png" alt="download" height="400" width="100%"/>
+<img src="https://github.com/amita125/qureight-technical-AmitaGhale/blob/master/images/login.png" alt="login" height="400" width="100%"/>
+
+Dashbaard image 
+<img src="https://github.com/amita125/qureight-technical-AmitaGhale/blob/master/images/dashboard.png" alt="dashboard" height="400" width="100%"/>
+
+View patient data
+<img src="https://github.com/amita125/qureight-technical-AmitaGhale/blob/master/images/view.png" alt="view" height="400" width="100%"/>
+
+
+Add new patient
+<img src="https://github.com/amita125/qureight-technical-AmitaGhale/blob/master/images/add.png" alt="add" height="400" width="100%"/>
+
+Delete the patient 
+<img src="https://github.com/amita125/qureight-technical-AmitaGhale/blob/master/images/delete.png" alt="delete" height="400" width="100%"/>
 
 
 
